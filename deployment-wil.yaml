@@ -7,7 +7,7 @@ spec:
     app: playground
   ports:
     - protocol: TCP
-      port: 3200
+      port: 8888
       targetPort: 8888
 ---
 apiVersion: apps/v1
